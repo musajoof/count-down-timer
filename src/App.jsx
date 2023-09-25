@@ -49,34 +49,34 @@ function App() {
       <div className="w-full h-screen p-10 bg-slate-700 bg-[url('./images.starts.svg')] bg-repeat">
       <div
           className="text-center sm:max-sm: sm:text-xs max-w-3xl  h-[30rem] bg-no-repeat bg-bottom bg-[url('./images/bg-stars.svg')], bg-[url('./images/pattern-hills.svg')] border-none rounded-md m-auto bg-gray-900 ">
-          <h1 className="inline-block mt-16 text-slate-200 uppercase tracking-wider font-semibold lg:text-2xl sm:text-xs">We're launching soon</h1>
+          <h1 className="inline-block mt-16 text-slate-200 uppercase tracking-wider font-semibold lg:text-2xl sm:text-xs md:text-lg">We're launching soon</h1>
           <div className="flex justify-center items-center space-x-4 mt-12">
             <div>
-              <div className="border max:w-28 h-24 bg-gray-500 rounded-md sm:w-14 sm:h-12 lg:w-28 lg:h-24 ">
+              <div className="border max:w-28 h-24 bg-gray-500 rounded-md sm:w-14 sm:h-12 lg:w-28 lg:h-24 md:w-28 md:h-24">
                 <h2 className="text-4xl font-extrabold text-red-400 mt-5">{days}</h2>
               </div>
-              <span className="block mt-2 text-gray-500 font-bold lg:text-xl">Days</span>
+              <span className="block mt-2 text-gray-500 font-bold lg:text-xl md:text-lg">Days</span>
             </div>
 
             <div>
-              <div className="border max:w-28 h-24 bg-gray-500 rounded-md sm:w-14 sm:h-12 lg:w-28 lg:h-24">
+              <div className="border max:w-28 h-24 bg-gray-500 rounded-md sm:w-14 sm:h-12 lg:w-28 lg:h-24 md:w-28 md:h-24">
                 <h2 className="text-4xl font-extrabold text-red-400 mt-5">{hours}</h2>
               </div>
-              <span className="block mt-2 text-gray-500 font-bold lg:text-xl">Hours</span>
+              <span className="block mt-2 text-gray-500 font-bold lg:text-xl md:text-lg">Hours</span>
             </div>
 
             <div>
-              <div className="border max:w-28 h-24 bg-gray-500 rounded-md sm:w-14 sm:h-12 lg:w-28 lg:h-24">
+              <div className="border max:w-28 h-24 bg-gray-500 rounded-md sm:w-14 sm:h-12 lg:w-28 lg:h-24 md:w-28 md:h-24">
                 <h2 className="text-4xl font-extrabold text-red-400 mt-5">{minutes}</h2>
               </div>
-              <span className="block mt-2 text-gray-500 font-bold lg:text-xl">Minutes</span>
+              <span className="block mt-2 text-gray-500 font-bold lg:text-xl md:text-lg">Minutes</span>
             </div>
 
             <div>
-              <div className="border max:w-28 h-24 bg-gray-500 rounded-md sm:w-14 sm:h-12 lg:w-28 lg:h-24">
+              <div className="border max:w-28 h-24 bg-gray-500 rounded-md sm:w-14 sm:h-12 lg:w-28 lg:h-24 md:w-28 md:h-24">
                 <h2 className="text-4xl font-extrabold text-red-400 mt-5">{seconds}</h2>
               </div>
-              <span className="block mt-2 text-gray-500 font-bold lg:text-xl">Secound</span>
+              <span className="block mt-2 text-gray-500 font-bold lg:text-xl md:text-lg">Secound</span>
             </div>
           </div>
           <div className="flex justify-center items-center space-x-4 mt-20">
@@ -85,7 +85,7 @@ function App() {
             <img src={Instagram} alt={"instagram image"} />
           </div>
         </div>
-        <footer className='text-center mt-3 text-slate-200 font-bold lg:text-xl sm:text-xs'>
+        <footer className='text-center mt-3 text-slate-200 font-bold lg:text-xl sm:text-xs md:text-lg'>
           <p>&copy; Develop By Musa Joof {currenDate}</p>
         </footer>
       </div>
